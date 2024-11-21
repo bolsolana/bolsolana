@@ -1,0 +1,2 @@
+# bolsocoin
+Manifesto BolSoCoin
