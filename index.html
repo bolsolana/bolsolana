@@ -119,7 +119,52 @@
     <p>A BOL$OLANA roda na **BLOCKCHAIN Solana**, mesma blockchain da $TRUMP</p>
     <p><strong>10% das moedas foram alocadas para apoiar o presidente **Bolsonaro**, com o intuito de fortalecer sua luta pela liberdade financeira.</strong></p>
     <p>O povo já falou e todos querem BOL$OLANA</p>
-    <a href="manifesto.pdf" download>📄 Baixar Manifesto</a>
+
+
+    
+    import React from "react";
+import { FaTwitter, FaTelegram, FaInstagram } from "react-icons/fa";
+
+const BolsolanaPage = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-green-600 mb-4">Bolsolana</h1>
+      <p className="text-lg text-gray-700 mb-8 text-center max-w-2xl">
+        Bem-vindo à Bolsolana, o TOKEN que conecta ideias grandiosas com a inovação da blockchain.
+      </p>
+
+      <div className="flex space-x-6">
+        <a
+          href="https://x.com/bolsolanacoin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700"
+        >
+          <FaTwitter size={32} />
+        </a>
+        <a
+          href="https://t.me/bolsolana"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700"
+        >
+          <FaTelegram size={32} />
+        </a>
+        <a
+          href="https://www.instagram.com/bolsolanaoficial/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-500 hover:text-pink-700"
+        >
+          <FaInstagram size={32} />
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default BolsolanaPage;
+
   </main>
   <footer>
     <p>© 2024 BolsoCoin - Todos os direitos reservados.</p>
